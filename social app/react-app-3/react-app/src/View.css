@@ -1,0 +1,54 @@
+/* View.css */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container a {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .container a:hover {
+    color: #0056b3;
+  }
+  
+  .post {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .post h4 {
+    margin-bottom: 5px;
+  }
+  
+  .post h4:first-child {
+    color: #007bff;
+  }
+  
+  .post h4:last-child {
+    margin-bottom: 10px;
+  }
+  
+  .loading {
+    text-align: center;
+  }
+  
+  .error {
+    text-align: center;
+    color: red;
+  }
+  

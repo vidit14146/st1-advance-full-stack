@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="HomePage.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Twitter Clone</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#" id="login">Login</a></li>
+                <li><a href="#" id="register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="tweet-compose">
+            <textarea placeholder="What's happening?" rows="3"></textarea>
+            <button id="tweetBtn">Tweet</button>
+        </div>
+        <div class="timeline">
+            <!-- Timeline tweets will be dynamically generated here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Twitter Clone</p>
+    </footer>
+
+    <script>
+        var tweetBtn = document.getElementById('tweetBtn');
+
+        // Function to handle tweet button click
+        tweetBtn.onclick = function() {
+            var isLoggedIn = false; // Placeholder for checking if user is logged in
+
+            if (!isLoggedIn) {
+                // If user is not logged in, prompt them to register
+                if (confirm("You need to be logged in to tweet. Do you want to register?")) {
+                    // Redirect to the registration page or show the registration modal
+                    window.location.href = 'register.html'; // Replace 'register.html' with your actual registration page URL
+                }
+            } else {
+                // If user is logged in, allow them to compose a tweet
+                // Code to compose a tweet goes here
+            }
+        };
+    </script>
+</body>
+</html>

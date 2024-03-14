@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>View Posts</title>
+<script>
+if (!localStorage.getItem('jwtToken')) {
+window.location.href = 'login.html';
+}
+</script>
+</head>
+<body>
+<h2>View Posts</h2>
+<div id="posts-container">
+<!-- Posts will be displayed here -->
+</div>
+
+<button onclick="logoutUser()">Logout</button>
+<button onclick="window.location.href='create-post.html'">Create Post</button>
+<script src="view-posts.js"></script>
+<script src="logout.js"></script>
+</body>
+</html>

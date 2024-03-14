@@ -1,0 +1,53 @@
+/* .abc{
+    width: 100%;
+    height: 80vh;
+    background:beige;
+    padding-top: 100px;
+} */
+/* Registration.css */
+
+.abc {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .abc h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .abc form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .abc label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .abc input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .abc button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .abc button:hover {
+    background-color: #0056b3;
+  }
+  
